@@ -5,6 +5,6 @@ bin/
 pkg/
 wasm-pack.log
 node_modules/*
-cjs
-esm
-umd
+cjs/*
+es/*
+umd/*
