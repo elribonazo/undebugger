@@ -10,7 +10,6 @@
 Open your developer tools and then click the link
 (Online demo)[https://jsfiddle.net/o5xf6m2t/2/]
 
-
 ## Features
 
 - **Console Log Suppression**: Disables common console methods (`log`, `warn`, `error`, `info`) to prevent inspection of console output.
