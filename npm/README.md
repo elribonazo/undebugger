@@ -17,6 +17,8 @@
 
 To use `undebuggme` in your project, add it as a dependency in your `Cargo.toml`:
 
+You can directly import the package in your browser through this cdn: https://unpkg.com/undebugger
+
 ```bash
 npm i undebuggme --save
 ```
