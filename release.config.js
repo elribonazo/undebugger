@@ -42,7 +42,7 @@ module.exports = {
                 'package-lock.json',
                 'CHANGELOG.md'
             ],
-            message: 'chore(release): release ${nextRelease.version}\n\n${nextRelease.notes}'
+            message: 'chore(release): release ${nextRelease.version}\n\n${nextRelease.notes} [skip ci]'
         }
     ],
     publish: [
