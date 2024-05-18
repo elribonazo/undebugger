@@ -1,3 +1,15 @@
+## [1.1.2](https://github.com/elribonazo/undebugger/compare/v1.1.1...v1.1.2) (2024-05-18)
+
+
+### Bug Fixes
+
+* automation ([3e2463c](https://github.com/elribonazo/undebugger/commit/3e2463ceeed02f3cb03a5aaf172e5e2d417d8b6b))
+* forgot npm i ([e4eacc7](https://github.com/elribonazo/undebugger/commit/e4eacc787865de65d2e14b44b804ebe253833aec))
+* release ([37b3b15](https://github.com/elribonazo/undebugger/commit/37b3b1585a0cf22220ec7bd6e0b794f0f04b177e))
+* release ([769981e](https://github.com/elribonazo/undebugger/commit/769981e97e89777402c7494e902e984ff879084b))
+* release test ([356758e](https://github.com/elribonazo/undebugger/commit/356758eb902923aa589078b37b278ca16c51806f))
+* release test ([313b475](https://github.com/elribonazo/undebugger/commit/313b475baa9f273e70f5ee05ebd0d12422377f01))
+
 ## [1.1.1](https://github.com/elribonazo/undebugger/compare/v1.1.0...v1.1.1) (2024-05-18)
 
 
