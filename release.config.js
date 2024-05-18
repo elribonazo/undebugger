@@ -7,7 +7,6 @@ module.exports = {
         '@semantic-release/commit-analyzer',
         '@semantic-release/release-notes-generator',
         ['@semantic-release/changelog', {changelogFile: 'CHANGELOG.md'}],
-        ['@semantic-release/exec', {"prepareCmd": 'npm publish ${nextRelease.version}'}],
         [
             '@semantic-release/git',
             {

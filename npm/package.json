@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "rm -rf build && chmod+x ./replace.sh && ./replace.sh && rollup -c",
+    "build": "rm -rf ./build && ./replace.sh && npx rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "elribonazo@gmail.com",
