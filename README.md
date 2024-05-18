@@ -1,10 +1,10 @@
-# undebuggme
+# undebugger
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Rust](https://img.shields.io/badge/rust-1.50%2B-blue.svg)
 ![WASM](https://img.shields.io/badge/wasm-pack-0.10.1-blue.svg)
 
-**undebuggme** is a Rust library designed to make it difficult for developers to debug your web application using browser Developer Tools. This library integrates with WebAssembly (Wasm) to disrupt common debugging techniques, such as setting breakpoints and inspecting console logs.
+**undebugger** is a Rust library designed to make it difficult for developers to debug your web application using browser Developer Tools. This library integrates with WebAssembly (Wasm) to disrupt common debugging techniques, such as setting breakpoints and inspecting console logs.
 
 ## Features
 

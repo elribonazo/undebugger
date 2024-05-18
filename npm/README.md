@@ -1,10 +1,10 @@
-# undebuggme
+# undebugger
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Rust](https://img.shields.io/badge/rust-1.50%2B-blue.svg)
 ![WASM](https://img.shields.io/badge/wasm-pack-0.10.1-blue.svg)
 
-**undebuggme** is a Rust library designed to make it difficult for developers to debug your web application using browser Developer Tools. This library integrates with WebAssembly (Wasm) to disrupt common debugging techniques, such as setting breakpoints and inspecting console logs.
+**undebugger** is a Rust library designed to make it difficult for developers to debug your web application using browser Developer Tools. This library integrates with WebAssembly (Wasm) to disrupt common debugging techniques, such as setting breakpoints and inspecting console logs.
 
 ## See working demo
 Open your developer tools and then click the link
@@ -20,16 +20,16 @@ Open your developer tools and then click the link
 
 ## Installation
 
-To use `undebuggme` in your project, add it as a dependency in your `Cargo.toml`:
+To use `undebugger` in your project, add it as a dependency in your `Cargo.toml`:
 
 You can directly import the package in your browser through this cdn: https://unpkg.com/undebugger
 
 ```bash
-npm i undebuggme --save
+npm i undebugger --save
 ```
 
 ```bash
-yarn add undebuggme
+yarn add undebugger
 ```
 
 ## Usage
