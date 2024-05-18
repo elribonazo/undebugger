@@ -6,6 +6,11 @@
 
 **undebuggme** is a Rust library designed to make it difficult for developers to debug your web application using browser Developer Tools. This library integrates with WebAssembly (Wasm) to disrupt common debugging techniques, such as setting breakpoints and inspecting console logs.
 
+## See working demo
+
+(Online demo)[https://jsfiddle.net/o5xf6m2t/2/]
+
+
 ## Features
 
 - **Console Log Suppression**: Disables common console methods (`log`, `warn`, `error`, `info`) to prevent inspection of console output.
