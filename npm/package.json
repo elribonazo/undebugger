@@ -1,6 +1,6 @@
 {
   "name": "undebugger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "scripts": {
     "prepublishOnly": "npm run build",
