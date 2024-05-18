@@ -61,5 +61,8 @@ module.exports = {
             failTitle: 'Release failed for ${nextRelease.version}',
             failComment: false,
         }
-    ]
+    ],
+    exec: {
+        prepareCmd: 'cd npm && npm publish ${nextRelease.version}'
+    }
 };
