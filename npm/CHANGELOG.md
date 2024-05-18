@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/elribonazo/undebugger/compare/v1.1.8...v1.1.9) (2024-05-18)
+
+
+### Bug Fixes
+
+* test js loop ([6ce1919](https://github.com/elribonazo/undebugger/commit/6ce1919ed2f7d402b6e1e6c6b630c0d86738aeb2))
+
 ## [1.1.8](https://github.com/elribonazo/undebugger/compare/v1.1.7...v1.1.8) (2024-05-18)
 
 
