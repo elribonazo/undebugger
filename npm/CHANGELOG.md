@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/elribonazo/undebugger/compare/v1.1.0...v1.1.1) (2024-05-18)
+
+
+### Bug Fixes
+
+* sh script ([19d8093](https://github.com/elribonazo/undebugger/commit/19d80934a0551a39b28b7277484047a4cac84c57))
+
 # [1.1.0](https://github.com/elribonazo/undebugger/compare/v1.0.1...v1.1.0) (2024-05-18)
 
 
