@@ -1,6 +1,6 @@
 {
   "name": "undebugger",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -15,11 +15,11 @@
   "files": [
     "../README.md",
     "./umd/*",
-    "./esm/*",
+    "./es/*",
     "./cjs/*"
   ],
   "main": "cjs/index.js",
-  "module": "esm/index.js",
+  "module": "es/index.js",
   "browser": "umd/index.js",
   "types": "build/types/index.d.ts",
   "license": "MIT",
