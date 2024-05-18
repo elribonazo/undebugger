@@ -2,7 +2,7 @@ module.exports = {
     branches: [
         'main'
     ],
-    repositoryUrl: 'https://github.com/elribonazo/undebugger.git',  // Ensure the repository URL is set
+    repositoryUrl: 'git@github.com:elribonazo/undebugger.git',  // Ensure the repository URL is set
     plugins: [
         '@semantic-release/commit-analyzer',
         '@semantic-release/release-notes-generator',
