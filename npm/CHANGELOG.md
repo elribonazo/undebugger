@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/elribonazo/undebugger/compare/v1.1.4...v1.1.5) (2024-05-18)
+
+
+### Bug Fixes
+
+* pipeline ([ced6e77](https://github.com/elribonazo/undebugger/commit/ced6e77bd86cd48be23937a629eefd00a5ddabe3))
+
 ## [1.1.4](https://github.com/elribonazo/undebugger/compare/v1.1.3...v1.1.4) (2024-05-18)
 
 
