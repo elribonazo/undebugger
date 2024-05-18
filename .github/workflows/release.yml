@@ -37,7 +37,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}  # Ensure semantic-release uses the correct token
         run: |
           cd npm
-          chmod +x replace.sh
           npm install
           npm run build
           npx semantic-release -e ../release.config.js
