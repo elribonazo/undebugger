@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/elribonazo/undebugger/compare/v1.1.7...v1.1.8) (2024-05-18)
+
+
+### Bug Fixes
+
+* fixing npm package ([dc33151](https://github.com/elribonazo/undebugger/commit/dc331515607b0b66643e3c053fbc3c54b1071295))
+
 ## [1.1.7](https://github.com/elribonazo/undebugger/compare/v1.1.6...v1.1.7) (2024-05-18)
 
 
