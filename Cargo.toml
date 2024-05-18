@@ -1,5 +1,5 @@
 [package]
-name = "undebugger"
+name = "undebugger-wasm"
 version = "0.0.0-rc1"
 authors = ["Francisco Javier Ribó Labrador <elribonazo@gmail.com>"]
 edition = "2018"

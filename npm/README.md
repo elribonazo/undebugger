@@ -13,12 +13,47 @@
 - **Developer Tools Detection**: Uses advanced techniques to detect if Developer Tools are open and responds accordingly.
 - **Automatic Integration**: Easily integrates into your existing web application with minimal setup.
 
-## Building the code
+## Installation
+
+To use `undebuggme` in your project, add it as a dependency in your `Cargo.toml`:
 
 ```bash
-cargo build
-wasm-pack build --target web
+npm i undebuggme --save
 ```
 
-## NPM Package
-Click [here](./npm/README.md) to open the NPM package documentation.
+```bash
+yarn add undebuggme
+```
+
+## Usage
+This library exports an empty package and has no initialisation parameters:
+It will use a bundled wasm file to automatically trigger debugger when the devTools open.
+
+Just Import it and you are good to go!
+
+Directly in your browser:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasm with Express</title>
+    <script src="https://unpkg.com/undebugger@0.0.0-rc32"></script>
+</head>
+<body>
+<h1>Hello, WebAssembly with Rust and Express!</h1>
+<p>Devtools is <span id='test'>off</span></p>
+</body>
+</html>
+```
+
+In your nodejs app with typescript or es modules:
+```typescript
+import 'undebugger'
+```
+
+In your nodejs app with commonjs:
+```typescript
+require('undebugger')
+```
