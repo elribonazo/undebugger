@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/elribonazo/undebugger/compare/v1.1.5...v1.1.6) (2024-05-18)
+
+
+### Bug Fixes
+
+* build ([d7326de](https://github.com/elribonazo/undebugger/commit/d7326ded78d316e363eeaa4d5e331860170af40a))
+
 ## [1.1.5](https://github.com/elribonazo/undebugger/compare/v1.1.4...v1.1.5) (2024-05-18)
 
 
