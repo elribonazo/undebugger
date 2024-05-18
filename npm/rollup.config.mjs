@@ -4,10 +4,10 @@ import wasm from '@rollup/plugin-wasm';
 import copy from 'rollup-plugin-copy';
 import cleanup from "rollup-plugin-cleanup";
 import typescript from "rollup-plugin-typescript2";
+import {terser} from "rollup-plugin-terser";
 
 const plugins = [
-
-    //commonjs(),
+    terser(),
     typescript({
         useTsconfigDeclarationDir: false,
         tsconfigOverride: {
