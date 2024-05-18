@@ -23,6 +23,7 @@ pub fn main() -> Result<(), JsValue> {
         .dyn_into::<Function>()
         .expect("undebugger should be a function");
     let _l = l_func.call0(&JsValue::NULL);
+
     fn call_debugger_repeatedly() {
         let k_func = js_sys::Reflect::get(&window().expect("no global `window` exists"), &JsValue::from_str("kfunction"))
             .expect("undebugger function should be defined")
@@ -31,12 +32,15 @@ pub fn main() -> Result<(), JsValue> {
         let _ = k_func.call0(&JsValue::NULL);
         let callback = Closure::wrap(Box::new(move || {
             let _ = k_func.call0(&JsValue::NULL);
+            call_debugger_repeatedly();
         }) as Box<dyn FnMut()>);
+
         window().expect("no global `window` exists")
             .set_interval_with_callback_and_timeout_and_arguments_0(callback.as_ref().unchecked_ref(), 1)
             .expect("Failed to set interval");
         callback.forget();
     }
+
     call_debugger_repeatedly();
     Ok(())
 }
