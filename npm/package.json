@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "sh ../build.sh && npx rollup -c"
+    "build": "cd .. && sh build.sh && cd npm && npx rollup -c"
   },
   "author": "elribonazo@gmail.com",
   "repository": {
