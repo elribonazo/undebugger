@@ -21,14 +21,14 @@
   "main": "./cjs/index.js",
   "module": "./es/index.js",
   "browser": "./umd/index.js",
-   "exports": {
-     ".": {
-       "require":  "./cjs/index.js",
-       "import": "./es/index.js",
-       "browser": "./umd/index.js",
-       "types": "./types/index.d.ts"
-     }
-   },
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./es/index.js",
+      "browser": "./umd/index.js",
+      "types": "./types/index.d.ts"
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",

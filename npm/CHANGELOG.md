@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/elribonazo/undebugger/compare/v1.1.9...v1.1.10) (2024-05-19)
+
+
+### Bug Fixes
+
+* release ([94db6f4](https://github.com/elribonazo/undebugger/commit/94db6f4f521f00744eb1e055381ef9437e0ed80c))
+
 ## [1.1.9](https://github.com/elribonazo/undebugger/compare/v1.1.8...v1.1.9) (2024-05-18)
 
 
