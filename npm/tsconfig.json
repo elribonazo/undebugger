@@ -3,6 +3,7 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
+    "declarationDir": "types",
     "module": "esnext",
     "target": "es2020",
     "skipLibCheck": true,
